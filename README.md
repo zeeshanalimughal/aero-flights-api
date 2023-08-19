@@ -6,13 +6,13 @@ AeroAPI is a simple, query-based API that gives software developers access to a 
 
 AeroAPI is divided into several categories to make things easier to discover.
 
-<b>Flights:</b> Summary information, planned routes, positions and more.
-<b>Foresight:</b> Flight positions enhanced with FlightAware Foresight™.
-<b>Airports:</b> Airport information and FIDS style resources.
-<b>Operators:</b> Operator information and fleet activity resources.
-<b>Alerts:</b> Configure flight alerts and delivery destinations.
-<b>History:</b> Historical flight access for various endpoints.
-<b>Miscellaneous:</b> Flight disruption, future schedule information, and aircraft owner information.
+<b>Flights:</b> Summary information, planned routes, positions and more.  
+<b>Foresight:</b> Flight positions enhanced with FlightAware Foresight™.  
+<b>Airports:</b> Airport information and FIDS style resources.  
+<b>Operators:</b> Operator information and fleet activity resources.  
+<b>Alerts:</b> Configure flight alerts and delivery destinations.  
+<b>History:</b> Historical flight access for various endpoints.  
+<b>Miscellaneous:</b> Flight disruption, future schedule information, and aircraft owner information.  
 
 ### Clone the repo
 
