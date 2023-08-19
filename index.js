@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const port = process.env.PORT || 4000;
-
+const flightAwareApiBaseUrl = process.env.AERO_API_BASE_URL
 // Middleware to parse JSON
 app.use(express.json());
 
@@ -18,7 +18,7 @@ async function callFlightAwareApi(
 ) {
   try {
     const response = await axios.get(
-      `${process.env.AERO_API_BASE_URL}${path}`,
+      `${flightAwareApiBaseUrl}${path}`,
       { headers }
     );
     return response.data;
