@@ -1,0 +1,905 @@
+{
+	"info": {
+		"_postman_id": "a4325cb8-385b-42cb-98ac-86873215faae",
+		"name": "FlightAware API Routes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28780853"
+	},
+	"item": [
+		{
+			"name": "Flights",
+			"item": [
+				{
+					"name": "GET /flights/{id}/map",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/UAL4-1692367336-fa-2052p/map",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"UAL4-1692367336-fa-2052p",
+								"map"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/{id}/position",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/UAL4-1692367336-fa-2052p/position",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"UAL4-1692367336-fa-2052p",
+								"position"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/{id}/route",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/UAL4-1692367336-fa-2052p/route",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"UAL4-1692367336-fa-2052p",
+								"route"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/{id}/track",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/UAL4-1692367336-fa-2052p/track",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"UAL4-1692367336-fa-2052p",
+								"track"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/{ident}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/UAL4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"UAL4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/{ident}/canonical",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/UAL4/canonical",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"UAL4",
+								"canonical"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/search",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/search",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/search/advanced",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/search/advanced",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"search",
+								"advanced"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/search/count",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/search/count",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"search",
+								"count"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /flights/search/positions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/flights/search/positions",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"flights",
+								"search",
+								"positions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Foresight",
+			"item": [
+				{
+					"name": "GET /foresight/flights/{id}/position",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/foresight/flights/123/position",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"foresight",
+								"flights",
+								"123",
+								"position"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /foresight/flights/{ident}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/foresight/flights/UAL4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"foresight",
+								"flights",
+								"UAL4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /foresight/flights/search/advanced",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/foresight/flights/search/advanced",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"foresight",
+								"flights",
+								"search",
+								"advanced"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Airports",
+			"item": [
+				{
+					"name": "GET /airports",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/airports",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"airports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /airports/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/airports/KLAX",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"airports",
+								"KLAX"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /airports/{id}/canonical",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/airports/KLAX/canonical",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"airports",
+								"KLAX",
+								"canonical"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /airports/{id}/delays",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/airports/KLAX/delays",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"airports",
+								"KLAX",
+								"delays"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /airports/{id}/flights",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/airports/KLAX/flights",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"airports",
+								"KLAX",
+								"flights"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Operators",
+			"item": [
+				{
+					"name": "GET /operators",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/operators",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"operators"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /operators/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/operators/AAA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"operators",
+								"AAA"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /operators/{id}/canonical",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/operators/AAA/canonical",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"operators",
+								"AAA",
+								"canonical"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /operators/{id}/flights",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/operators/AAA/flights",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"operators",
+								"AAA",
+								"flights"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "History",
+			"item": [
+				{
+					"name": "GET /history/aircraft/{registration}/last_flight",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/history/aircraft/N12345/last_flight",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"history",
+								"aircraft",
+								"N12345",
+								"last_flight"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /history/flights/{id}/map",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/history/flights/UAL4-1692367336-fa-2052/map",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"history",
+								"flights",
+								"UAL4-1692367336-fa-2052",
+								"map"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /history/flights/{id}/route",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/history/flights/UAL4-1692367336-fa-2052/route",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"history",
+								"flights",
+								"UAL4-1692367336-fa-2052",
+								"route"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /history/flights/{id}/track",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/history/flights/UAL4-1692367336-fa-2052/track",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"history",
+								"flights",
+								"UAL4-1692367336-fa-2052",
+								"track"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /history/flights/{ident}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/history/flights/UAL4-1692367336-fa-2052",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"history",
+								"flights",
+								"UAL4-1692367336-fa-2052"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Miscellaneous",
+			"item": [
+				{
+					"name": "GET /aircraft/{ident}/owner",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/aircraft/A320/owner",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"aircraft",
+								"A320",
+								"owner"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /aircraft/types/{type}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/aircraft/types/A320",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"aircraft",
+								"types",
+								"A320"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /disruption_counts/{entity_type}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/disruption_counts/airports?entity_type=airline",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"disruption_counts",
+								"airports"
+							],
+							"query": [
+								{
+									"key": "entity_type",
+									"value": "airline"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /disruption_counts/{entity_type}/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/disruption_counts/airports/KLAX",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"disruption_counts",
+								"airports",
+								"KLAX"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /schedules/{date_start}/{date_end}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/schedules/2023-08-01/2023-08-31",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"schedules",
+								"2023-08-01",
+								"2023-08-31"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Alerts",
+			"item": [
+				{
+					"name": "GET /alerts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/alerts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /alerts/{id}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/alerts/123",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST /alerts",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"ident\": \"XYZ789\",\n  \"origin\": \"ORD\",\n  \"destination\": \"SFO\",\n  \"aircraft_type\": \"A320\",\n  \"start\": \"2023-09-01\",\n  \"end\": \"2023-09-15\",\n  \"max_weekly\": 5,\n  \"eta\": 45,\n  \"events\": {\n    \"arrival\": true,\n    \"cancelled\": true,\n    \"departure\": true,\n    \"diverted\": false,\n    \"filed\": true\n  },\n  \"target_url\": \"http://webhook-endpoint\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/alerts",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT /alerts/{id}",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"ident\": \"XYZ789\",\n  \"origin\": \"ORD\",\n  \"destination\": \"SFO\",\n  \"aircraft_type\": \"A320\",\n  \"start\": \"2023-09-01\",\n  \"end\": \"2023-09-15\",\n  \"max_weekly\": 5,\n  \"eta\": 45,\n  \"events\": {\n    \"arrival\": true,\n    \"cancelled\": true,\n    \"departure\": true,\n    \"diverted\": false,\n    \"filed\": true\n  },\n  \"target_url\": \"http://updated-webhook-endpoint\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/alerts/123",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE /alerts/{id}",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/alerts/123",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts",
+								"123"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET /alerts/endpoint",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/alerts/endpoint",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts",
+								"endpoint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT /alerts/endpoint",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"example_key\": \"updated_value\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:4000/alerts/endpoint",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts",
+								"endpoint"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE /alerts/endpoint",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:4000/alerts/endpoint",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "4000",
+							"path": [
+								"alerts",
+								"endpoint"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
