@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "AeroAPI is a simple, query-based API that gives software developers access to a variety of FlightAware's flight data",
   "author": "zeeshan ali",
-  "main": "index.js",
+  "main": "queryCall.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node queryCall.js",
+    "dev": "nodemon queryCall.js"
   },
   "keywords": [
     "AeroAPI",
